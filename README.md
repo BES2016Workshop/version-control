@@ -55,3 +55,8 @@ Now you can perform an initial `push` that will set up your local `master` branc
 ```
 git push -u origin master
 ```
+
+## Setting up a git project in RStudio
+
+You can create a new project to track from an existing repository.
+
