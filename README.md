@@ -58,5 +58,5 @@ git push -u origin master
 
 ## Setting up a git project in RStudio
 
-You can create a new project to track from an existing repository.
+You can create a new project to track from an existing repository. If you've got git installed!
 
