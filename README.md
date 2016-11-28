@@ -151,7 +151,7 @@ Now, use `git status` to check the state of the working directory. It
 should report that you've modified README.md. You can use `git diff`
 to review your changes:
 
-![](img/git_diff.png)
+![](img/git_diff_term.png)
 
 <!-- <pre> -->
 <!-- diff --git a/README.md b/README.md -->
@@ -338,22 +338,22 @@ Create a new project in RStudio as follows:
 
 **File** -> **New Project** -> **New Directory**
 
-![](./assets/project_screen1.png)
+![](./img/project_screen1.png)
 
 In the **Project Type** screen, click on **Empty Project**.
 
-![](./assets/project_screen2.png)
+![](./img/project_screen2.png)
 
 In the **Create New Project** screen, give your project a name and
 ensure that **Create a git repository** is checked. Click on **Create
 Project**.
 
-![](./assets/project_screen3.png)
+![](./img/project_screen3.png)
 
 RStudio will create a new folder containing an empty project and set
 R's working directory to within it.
 
-![](./assets/project_files.png)
+![](./img/project_files.png)
 
 Two files are created in the otherwise empty project:
 
@@ -379,7 +379,7 @@ it under version control. By default, the git version control pane is
 in the top right hand corner of RStudio. Find it and click on the
 **Git** tab. You'll see a list of the files in your project directory.
 
-![](./assets/git_pane.png)
+![](./img/git_pane.png)
 
 If you hover the mouse pointer over the yellow ? marks in RStudio,
 you'll see a tooltip telling you that the files are **untracked**. This
@@ -390,7 +390,7 @@ asked to manage, so you need to tell git which files to track.
 
 Tick the **Staged** checkbox for each file.
 
-![](./assets/git_pane_added.png)
+![](./img/git_pane_added.png)
 
 All of your files are now **staged**, ready for you to record those
 changes as a **commit**. Each commit creates a snapshot of the project
@@ -399,7 +399,7 @@ time.
 
 Click on **Commit**.
 
-![](./assets/commit.png)
+![](./img/commit.png)
 
 This will open a pane showing details of the commit. You need to
 specify a **commit message** in the right hand panel. This should
@@ -409,11 +409,11 @@ commit, you can follow tradition and use a brief message such as
 more descriptive message. Once you've typed a commit message, click on
 **Commit**.
 
-![](./assets/first_commit.png)
+![](./img/first_commit.png)
 
 A message displaying the output from git will be shown.
 
-![](./assets/git_commit_message.png)
+![](./img/git_commit_message.png)
 
 Click on **Close** and you are done.
 
@@ -424,7 +424,7 @@ Make a change to your script file and save it. Now, click on the
 listed, since RStudio only lists files that have changed in its git
 interface.
 
-![](./assets/git_changed.png)
+![](./img/git_changed.png)
 
 Click on the **Staged** checkbox to stage your change. Now click on
 **Diff** to display a summary of what's changed. Lines that have been
@@ -434,11 +434,11 @@ added are green. Lines that have been removed are red.
 actually two operations: the removal of the original line followed by
 the creation of a new line.)
 
-![](./assets/git_diff.png)
+![](./img/git_diff.png)
 
 Add a commit message and click on **Commit**.
 
-![](./assets/git_commit_message2.png)
+![](./img/git_commit_message2.png)
 
 ## Viewing history
 
@@ -485,7 +485,7 @@ repository.
 
 In RStudio, navigate to the **Git** tab and click on **More -> Shell...**
 
-![](./assets/git_more_shell.png)
+![](./img/git_more_shell.png)
 
 Paste the git commands into the shell and press **Enter** to execute them.
 
@@ -515,15 +515,15 @@ This repo is used to demonstrate GitHub to users of R and R Studio.
 In the **Git** tab of RStudio, the **Readme.md** file should be the
 only file you see. Stage it as shown below and click **Commit**.
 
-![](./assets/staged_readme.png)
+![](./img/staged_readme.png)
 
 Supply a commit message and click **Commit**.
 
-![](./assets/readme_commit.png)
+![](./img/readme_commit.png)
 
 Finally, click **Push** to upload to GitHub.
 
-![](./assets/git_push.png)
+![](./img/git_push.png)
 
 You can see that the standard workflow loop is very quick and simple:
 
