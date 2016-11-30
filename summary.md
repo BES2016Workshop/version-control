@@ -24,13 +24,13 @@ To clarify the above, typically when using git for a project we follow these ste
 3. Write some code. Save the file to the `new-repo` folder, e.g. `mycode.R`
 4. Use `git status` to see what is ready to add/commit and check file names.
 5. Stage the file using `git add mycode.R`
-6. Commit the file with a message using `git commit -m "My first commit"
+6. Commit the file with a message using `git commit -m "My first commit"`
 7. Push the code to the remote GitHub repo using `git push`
 
 8. Write some more code. Save.
 9. Use `git status` to see what is ready to add/commit and check file names.
 10. Stage the file using `git add mycode.R`
-11. Commit the file with a message using `git commit -m "Edits to first bit of code"
+11. Commit the file with a message using `git commit -m "Edits to first bit of code"`
 12. Push the code to the remote GitHub repo using `git push`
 13. Write some more code...etc. 
 
