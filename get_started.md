@@ -1,6 +1,20 @@
 ## Getting started with git
 
-This section of the tutorial focuses on using git on the command line.
+This section of the tutorial focuses on using git through the command
+line, which is an interface for sending commands directly to your
+computer's operating system.  On Windows computers this is the
+**Command Prompt** or **Git Bash** while on a Mac you can use
+**Terminal**. Here's where to find these:
+
+**Windows**
+
+* Go to the *Start* menu
+* In the *Search* or *Run* line type **cmd** and press enter.
+
+**Mac**
+
+* Go to **Applications -> Utilities -> Terminal**
+
 
 ### How does git work?
 

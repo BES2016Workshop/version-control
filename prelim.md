@@ -13,13 +13,24 @@ If prompted, select the option to add the installation location to system path.
 <!-- On Windows, you may need to select an option about "Adjusting your PATH environment". -->
 <!-- The option "Run Git from the Windows Command Prompt" will help RStudio find git. -->
 
-Open a terminal or command prompt and type `git version` to check that
-the installation worked.
+To check that the installation worked, open a terminal or command prompt:
 
-#### Configure git [](#configure)
+**Windows**
+
+* Go to the *Start* menu
+* In the *Search* or *Run* line type **cmd** and press enter.
+
+**Mac**
+
+* Go to **Applications** -> **Utilities** -> **Terminal**
+
+Type `git version`. You should see a short message containing some
+version information.
+
+### Configure git [](#configure)
 
 After installing git, you need to tell it who you are. Open a terminal
-window or command prompt and type the following:
+window or command prompt (see above) and type the following:
 
 ```
 git config --global user.email "you@youremail.com"
@@ -27,11 +38,17 @@ git config --global user.name "Your Name"
 ```
 
 You can also configure git to use your preferred editor for commit
-messages:
-
+messages, e.g. on Mac:
 ```
 git config --global core.editor nano
 ```
+
+or on Windows:
+```
+git config --global core.editor notepad
+```
+
+It's a good idea to follow this step since the default editor selected by git is quite difficult to use!
 
 ### Sign up for an account on GitHub
 

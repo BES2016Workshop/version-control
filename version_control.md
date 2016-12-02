@@ -1,7 +1,11 @@
 ## Get your project under version control
 
+In the previous step we initialised a git repository and added some
+files that we want git to track.
+<!-- TODO add git status step here -->
+
 Creating your first commit will set up version control on the files
-that you've asked git to track.
+that you've asked git to track using `git add`.
 
 For the first commit you can use `git commit` with the `-m` option,
 which allows you to specify a commit message directly:
