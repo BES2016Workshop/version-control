@@ -1,14 +1,15 @@
 # Introduction to version control for research
 
 This tutorial introduces a basic workflow for version control using
-git and the popular online hosting service, GitHub, providing a
-starting point for curating and distributing code for research.
+git and the popular online hosting service, GitHub. The aim is to
+provide a starting point for researchers who want to curate and
+distribute their code.
 
 * [Preliminaries](./prelim.md) Make sure that you have what you need to
 get started
 
 * **Using git on the command line**
-    - [Getting started](./get_started.md) Start using git on the command line
+    - [Getting started](./get_started.md) Start using git through a command line interface
     - [Getting your project under version control](./version_control.md) Set up version control on your project
     - [Connecting to a remote repository](./remote.md) Using GitHub as remote storage for your project
     - [Subsequent workflow](./workflow.md) Making updates to your project

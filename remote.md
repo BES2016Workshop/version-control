@@ -43,8 +43,6 @@ This indicates that you want to use the GitHub repository `myproj`
 belonging to the user `ghuser` as the remote for your local
 repository, using the `HTTPS` protocol<sup>[1](#footnote)</sup>.
 
-<!-- TODO check link and set as footnote? -->
-
 Having set the remote, you need to perform an initial `git push` to
 push your local changes and set up your local branch (`master`) to
 sync with the equivalent remote branch:
@@ -57,6 +55,7 @@ Confirm that the project has been uploaded to your GitHub repository.
 
 **Next:** [Subsequent workflow](./workflow.md)
 
-<sup><a name="footnote">1</a></sup>There are two alternative methods for connecting to a remote, `HTTPS` and `ssh`.  See the
+<sup><a name="footnote">1</a></sup>There are two alternative methods
+for connecting to a remote, `HTTPS` and `ssh`.  See the
 [GitHub help pages](https://help.github.com/articles/which-remote-url-should-i-use/)
 for more information.

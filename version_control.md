@@ -1,11 +1,15 @@
 ## Get your project under version control
 
-In the previous step we initialised a git repository and added some
-files that we want git to track.
-<!-- TODO add git status step here -->
+In the [previous step](./get_started.md) you initialised a git
+repository and added some files that you want git to track.
+
+The next stage is to create your first commit, but before you go any
+further, check the current state of your working directory using `git
+status` to make sure that you're happy with the list of files to be
+committed.
 
 Creating your first commit will set up version control on the files
-that you've asked git to track using `git add`.
+that you've asked git to manage.
 
 For the first commit you can use `git commit` with the `-m` option,
 which allows you to specify a commit message directly:
@@ -14,20 +18,25 @@ which allows you to specify a commit message directly:
 git commit -m "My first commit"
 ```
 
-### Making changes
+This should result in a short report about the commit.
+
+### Working in the version control framework
 
 Now that your project is under version control you can keep track of
-the changes that you make.
+any changes that you make.
 
 Open the README.md file and add a few lines describing your
 project. Also, change the heading from "My project" to something more
 specific. Save and close the file.
 
 Now, use `git status` to check the state of the working directory. It
-should report that you've modified README.md. You can use `git diff`
-to review your changes:
+should report that you've modified README.md.
 
-![](img/git_diff_term.png)
+![](img/git_status_change.png)
+
+You can use `git diff` to review your changes:
+
+![](img/git_diff_cmd.png)
 
 <!-- <pre> -->
 <!-- diff --git a/README.md b/README.md -->
@@ -52,28 +61,29 @@ stage your file.
 
 ### Committing your changes
 
-For most commits it's a good idea to write a commit message which
-explains the modifications that you've made in some detail. This will
-produce a record of the changes that you have made to your code over
-time and may be useful when you want to review the history of your
-project. Using
+For this tutorial it's fine to carry on using `git commit -m` with a
+short message when you commit your changes.  However, it's a good idea
+to get into the habit of writing commit messages which explain the
+modifications that you've made in some detail. That way you'll have a
+record of the changes that you have made to your code to which you can
+refer later. This can be really useful when you want to review the
+history of your project.
 
-```
-git commit
-```
+Using `git commit` without the `-m` option prompts git to open a text
+editor in which to compose your message. Note that the text editor
+that is used depends on your
+[git configuration](./prelim.md#configure). Before going further you
+may want to make sure you've set the `core.editor` option to something
+sensible.
 
-prompts git to open a text editor in which to compose your message.  A
-good strategy is to start with a short, one-line summary of the
-commit, followed by a longer description of your changes. For example:
+A good strategy for commit messages is to start with a short, one-line
+summary of the commit, followed by a longer description of your
+changes. For example:
 
     Update README file
 
     Update README file to include the proper title and a description
     of the project aims.
-
-<!-- FIXME: link to configure subsection -->
-See the section on [configuring git](./prelim.md#configure) to change the default
-text editor.
 
 ### Reviewing version history
 
@@ -81,9 +91,13 @@ You can view the history of your project using `git log`. This lists
 each commit together with its unique SHA1 identifier, date, author,
 and commit message. The commit history can be extremely useful for
 finding bugs or looking back to how your project looked a few months
-ago. For example, to see a detailed report of the changes for a
-particular commit you can use `git show -p` together with the first
-part of the SHA1 identification string for that commit:
+ago.
+
+You can use the information in the commit history to extract more
+information about changes made in a commit. For example, to see a
+detailed report of the changes for a given commit you can use `git
+show -p` together with the first part of the SHA1 identification
+string for that commit:
 
 ```
 git show -p f9fae515
