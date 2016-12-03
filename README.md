@@ -14,7 +14,7 @@ get started
     - [Connecting to a remote repository](./remote.md) Using GitHub as remote storage for your project
     - [Subsequent workflow](./workflow.md) Making updates to your project
     - [Summary](./summary.md) What we've learned and further steps
-    - [When things go wrong](./when-things-go-wrong.md) A very quick intro into how to use git to 
+    - [When things go wrong](./when-things-go-wrong.md) A very quick intro into how to use git to
     rewind when things go wrong in your code. And how to escape text editors.
 
 * **Using git through RStudio**
@@ -24,6 +24,8 @@ get started
     * [Subsequent workflow](./rstudio_updates.md) Making further changes to your project
     * [Summary](./rstudio_summary.md) What we've learned and further steps
 
-The sections of this tutorial dealing with RStudio and GitHub were
-adapted from Mike Croucher's
-[ISBE_Symposium tutorial](https://github.com/mikecroucher/ISBE_Symposium).
+* **Citations**
+
+The sections of this tutorial dealing with RStudio and GitHub were adapted from (1).
+
+(1) (Mike Croucher & Anna Krystalli. (2016). Introduction to version control with RStudio [Data set]. Zenodo. http://doi.org/10.5281/zenodo.61435) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.61435.svg)](https://doi.org/10.5281/zenodo.61435)
