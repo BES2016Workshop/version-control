@@ -26,6 +26,6 @@ get started
 
 * **Citations**
 
-The sections of this tutorial dealing with RStudio and GitHub were adapted [1].
+The sections of this tutorial dealing with RStudio and GitHub were adapted from (1).
 
-[1] (Mike Croucher & Anna Krystalli. (2016). Introduction to version control with RStudio [Data set]. Zenodo. http://doi.org/10.5281/zenodo.61435) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.61435.svg)](https://doi.org/10.5281/zenodo.61435)
+(1) (Mike Croucher & Anna Krystalli. (2016). Introduction to version control with RStudio [Data set]. Zenodo. http://doi.org/10.5281/zenodo.61435) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.61435.svg)](https://doi.org/10.5281/zenodo.61435)
