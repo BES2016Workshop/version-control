@@ -10,7 +10,7 @@ get started
 
 * **Using git on the command line**
     - [Getting started](./get_started.md) Start using git through a command line interface
-    - [Getting your project under version control](./version_control.md) Set up version control on your project
+    - [Working with version control](./version_control.md) Working on your project in the version control framework
     - [Connecting to a remote repository](./remote.md) Using GitHub as remote storage for your project
     - [Subsequent workflow](./workflow.md) Making updates to your project
     - [Summary](./summary.md) What we've learned and further steps
@@ -24,7 +24,7 @@ get started
     * [Subsequent workflow](./rstudio_updates.md) Making further changes to your project
     * [Summary](./rstudio_summary.md) What we've learned and further steps
 
-* **Citations**
+### Citations
 
 The sections of this tutorial dealing with RStudio and GitHub were adapted from (1).
 

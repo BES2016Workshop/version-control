@@ -50,7 +50,7 @@ git config --global core.editor notepad
 
 It's a good idea to follow this step since the default editor selected by git is quite difficult to use!
 
-### Sign up for an account on GitHub
+### Sign up for an account on GitHub [](#github)
 
 GitHub is a popular online hosting service for git repositories. It
 provides a useful interface for collaboration and code sharing.
@@ -76,3 +76,25 @@ address.***
 
 It may take a while to receive the verification email for
 this step. Don't worry, we won't need this for the tutorial.
+
+### Install RStudio
+
+If you're going to be following the section on using git through
+RStudio, you'll need to make sure you have an up-to-date version of
+RStudio installed. Downloads are available at:
+
+[https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
+
+#### Make sure that RStudio is ready to use git
+
+Open Rstudio and go to the options pane (Windows users, look in
+**Tools -> Options**, Mac users, look in **RStudio ->
+Preferences**). The last entry in the ribbon on the left is
+**Git/SVN**. Select that, and look at the contents of the box saying
+**Git executable**. It should say something like `C:/Program Files
+(x86)/Git/bin/git.exe` (Windows) or `/usr/bin/git` (Mac). If instead
+it says `(Not found)`, RStudio cannot find git.
+
+If RStudio cannot find git (and testing `git version` on the command
+line worked above), then click the **Browse...** button and navigate
+to the path corresponding to your installation of git.

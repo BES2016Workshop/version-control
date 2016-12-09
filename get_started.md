@@ -1,7 +1,7 @@
 ## Getting started with git
 
-This section of the tutorial focuses on using git through the command
-line, which is an interface for sending commands directly to your
+This section of the tutorial focuses on using git through the *command
+line*, which is an interface for sending commands directly to your
 computer's operating system.  On Windows computers this is the
 **Command Prompt** while on a Mac you can use **Terminal**. Here's
 where to find these:
@@ -29,7 +29,7 @@ changes as a **commit**. Each commit creates a snapshot of the project
 directory, allowing you to construct a record of the state of your
 project through time.
 
-### Setting up a git repository
+### Setting up a git repository  [](#git-init)
 
 To set up a local git repository, create a directory, move into it and
 tell git to initialise the repository. You can do all of these steps
@@ -70,7 +70,26 @@ taken so far the output should look something like this:
 
 ![](./img/git_status_initial.png)
 
-**Next:** [Getting your project under version control](./version_control.md)
+### Get your project under version control [](#initial-commit)
+
+The next stage is to begin your version history by creating your first
+*commit*.  This will take an initial snapshot of the files that you've
+asked git to manage and set up version control on those files.
+
+Make a final check on the state of your working directory using `git
+status` to make sure that you're happy with the list of files to be
+included.
+
+For the first commit you can use `git commit` with the `-m` option,
+which allows you to specify a commit message directly:
+
+```
+git commit -m "My first commit"
+```
+
+Executing this command will produce a short report about the commit.
+
+**Next:** [Working with version control](./version_control.md)
 
 <sup><a name="footnote">1</a></sup>If you prefer, you can set up a new
 folder using the mouse/GUI, but you'll still need to navigate to the
