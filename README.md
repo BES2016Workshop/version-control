@@ -13,9 +13,8 @@ get started
     - [Working with version control](./version_control.md) Working on your project in the version control framework
     - [Connecting to a remote repository](./remote.md) Using GitHub as remote storage for your project
     - [Subsequent workflow](./workflow.md) Making updates to your project
+    - [When things go wrong](./when-things-go-wrong.md) A very quick intro for coping when things go wrong when you're using git
     - [Summary](./summary.md) What we've learned and further steps
-    - [When things go wrong](./when-things-go-wrong.md) A very quick intro into how to use git to
-    rewind when things go wrong in your code. And how to escape text editors.
 
 * **Using git through RStudio**
     * [Setting up a version controlled project](./rstudio_setup.md) Setting up a git project in RStudio

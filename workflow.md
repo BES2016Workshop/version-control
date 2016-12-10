@@ -20,7 +20,7 @@ remote branch). Use
 git push
 ```
 
-to bring the remote branch up-to-date.
+to bring the remote repository up-to-date.
 
 ## Other ways to get started: cloning a repository [](#git-clone)
 
@@ -44,4 +44,4 @@ repository. This is just to remind you that you'll need to add files
 and [create an initial commit](./get_started.md#initial-commit) before
 you have a version controlled project.
 
-**Next:** [Summary](./summary.md)
+**Next:** [When things go wrong](./when-things-go-wrong.md)

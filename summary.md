@@ -18,8 +18,7 @@ We've introduced the following basic git workflow using git on the command line:
 
 To clarify the above, when using git for a project we follow these steps:
 
-1. [Initialise a local repository](./get_started.md#git-init) (`git
-   init`), or
+1. [Initialise a local repository](./get_started.md#git-init) (`git init`), or
    [clone an existing remote repository from GitHub](./workflow.md#git-clone)
    (`git clone`).
 2. Write some code. Save the file to the working directory, e.g. `mycode.R`
@@ -43,9 +42,14 @@ Most of the time you'll just be using four git commands: `add`, `commit`, `push`
 Git and GitHub are extremely powerful and flexible systems and there
 is a lot more you can learn if you wish. Here are some starting points:
 
-### Documentation, cheatsheets and tutorials
+#### Documentation
 - `git help <command>`
-- git -- the simple guide [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/)
+
+#### Tutorials
+- Git -- the simple guide [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/)
 - Version Control with Git (Software Carpentry tutorial) [http://swcarpentry.github.io/git-novice/](http://swcarpentry.github.io/git-novice/)
 - Pro Git book [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
-- git reference/cheatsheets [https://git-scm.com/docs](https://git-scm.com/docs)
+
+#### Cheatsheets and quick reference
+- Git reference/cheatsheets [https://git-scm.com/docs](https://git-scm.com/docs)
+- Oh shit git! [http://ohshitgit.com/](http://ohshitgit.com/)
