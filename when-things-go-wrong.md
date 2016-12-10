@@ -48,15 +48,15 @@ broke everything and then use:
 
 Also known as the magical time machine function!
 
-**Warning:** if you've already pushed your changes to the remote
+**Warning: if you've already pushed your changes to the remote
 repository then using `git reset` in this way will cause problems when
-you try to push. This is because git tries to discourage you to change
+you try to push.** This is because git tries to discourage you to change
 a remote's version history since doing so can be problematic if you
 are working collaboratively.  There are some tips about how to proceed
 in
 [this StackOverflow answer](http://stackoverflow.com/questions/5816688/resetting-remote-to-a-certain-commit#5816761).
 
-You can fix many other problems in git. Have a look at
+You're likely to come across other issues when using git. Have a look at
 [oh shit git!](http://ohshitgit.com/) for how to fix some other common
 problems.
 
