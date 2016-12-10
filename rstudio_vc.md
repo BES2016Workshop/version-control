@@ -3,7 +3,7 @@
 Once your project is set up, you can start work on your analysis,
 perhaps by creating an R script that reads in your data and carries
 out some preliminary analysis. For the purposes of this tutorial,
-create a simple script with a few lines of R.
+start by creating a simple script containing a few lines of R.
 
 After you've created the first file in your project, you need to get
 it under version control. By default, the git version control pane is
@@ -14,7 +14,7 @@ in the top right hand corner of RStudio. Find it and click on the
 
 If you hover the mouse pointer over the yellow ? marks in RStudio,
 you'll see a tooltip telling you that the files are **untracked**. This
-means that git is not tracking versions of these files
+means that git is not tracking versions of these files.
 
 Git will only keep track of modifications to files that it has been
 asked to manage, so you need to tell git which files to track.
