@@ -47,7 +47,7 @@ is a lot more you can learn if you wish. Here are some starting points:
 
 #### Tutorials
 - Git - the simple guide [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/)
-- Version Control with Git (Software Carpentry tutorial) [http://swcarpentry.github.io/git-novice/](http://swcarpentry.github.io/git-novice/)
+- Version Control with Git [http://swcarpentry.github.io/git-novice/](http://swcarpentry.github.io/git-novice/)
 - Pro Git book [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
 #### Cheatsheets and quick reference
